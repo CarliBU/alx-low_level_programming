@@ -10,7 +10,7 @@ int main(void)
 int i = 'a';
 while(i <= 'z')
 {
-if (i = 'q' || 'e')
+if (i = 'q', 'e')
 {
 
 }
