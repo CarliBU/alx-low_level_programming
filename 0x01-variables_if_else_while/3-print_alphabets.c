@@ -8,13 +8,13 @@
 int main(void)
 {
 int i = 'a';
-while(i <= 'z')
+while (i <= 'z')
 {
 putchar(i);
 i++;
 }
 i = 'a';
-while(i <= 'z')
+while (i <= 'z')
 {
 putchar(toupper(i));
 i++;
