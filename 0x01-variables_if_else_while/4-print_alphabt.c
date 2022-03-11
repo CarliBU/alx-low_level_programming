@@ -8,13 +8,14 @@
 int main(void)
 {
 int i = 'a';
-while(i <= 'z')
+while (i <= 'z')
 {
-if (i = 'q', 'e')
+if ('q', 'e')
 {
 
 }
-else{
+else
+{
 putchar(i);
 i++;
 }
