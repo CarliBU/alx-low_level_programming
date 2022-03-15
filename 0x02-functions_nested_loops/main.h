@@ -1,4 +1,5 @@
-void putchar(char[])
+void putch(char[])
 {
-printf("_putchar");
+
+printf("%s", ch);
 }
