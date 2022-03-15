@@ -6,6 +6,6 @@
 */
 int main()
 {
-    printf("_putchar");
+    putchar;
     return 0;
 }
