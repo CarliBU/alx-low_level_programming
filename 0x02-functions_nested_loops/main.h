@@ -1,4 +1,4 @@
-void putch(char[])
+void putch(char[] ch)
 {
 
 printf("%s", ch);
