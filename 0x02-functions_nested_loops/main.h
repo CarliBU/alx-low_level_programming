@@ -1,5 +1,1 @@
-void putch(char[] ch)
-{
-
-printf("%s", ch);
-}
+int _putchar(char c);

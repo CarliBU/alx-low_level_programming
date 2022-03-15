@@ -5,9 +5,15 @@
 *
 *Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
-ch="_putchar";
-putch(ch);
-return 0;
+char word[9] = "_putchar";
+int i = 0;
+while (i < 8)
+{
+_putchar(word{i});
+i++;
+}
+_putchar('\n');
+return (0);
 }
