@@ -12,8 +12,8 @@ void rev_string(char *s)
 char tmp;
 char *pstart, *pend;
 
-pstart = str;
-pend = pstart + strlen(str) - 1;
+pstart = *str;
+pend = pstart + strlen(*str) - 1;
 
 for (; pstart < pend; pstart++, pend--)
 {
