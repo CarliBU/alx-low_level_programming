@@ -12,7 +12,7 @@ char *string = str;
 while (*string != '\0')
 {
 putchar(*string);
-s++;
+string++;
 }
 putchar('\n');
 }
