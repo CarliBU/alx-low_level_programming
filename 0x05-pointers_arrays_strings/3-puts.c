@@ -5,6 +5,7 @@
 *
 *Return: void
 */
+#include <stdio.h>
 void _puts(char *str)
 {
 char *string = str;
