@@ -2,6 +2,7 @@
 /**
 *_print__rev_recursion - Print string in reverse
 *
+*Desc: _memset
 *@s: char type
 *
 *Return: char
