@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *int _strlen_recursion(char *s) - returns lenght of string
+ * _strlen_recursion - Return the length of a string.
  * Desc: _memset
  * @s: char type
  * Return: char type
@@ -13,5 +13,5 @@ if (*s == '\0')
 return (0);
 }
 else
-return (1 +_strlen_recursion(s + 1));
+return (1 + _strlen_recursion(s + 1));
 }
