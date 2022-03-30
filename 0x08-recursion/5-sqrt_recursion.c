@@ -1,32 +1,35 @@
 #include "main.h"
 /**
- * _sqrt_recursion -  Returns the natural square root of a number.
- * @n: int type
- * Return: char type
- **/
+ *_evaluate - evaluate function sqrt
+ *@i: interger
+ *@n: interger
+ *Return: evaluate sqrt
+ */
+
+int _evaluate(int i, int n)
+{
+if (n == 0 || n == 1)
+return (n);
+else if (i * i < n)
+return (_evaluate(i + 1, n));
+else if (i * i == n)
+return (i);
+return (-1);
+return (-1);
+}
+
+/**
+ *_sqrt_recursion - evaluate sqrt
+ *@n: interger
+ *Return: Sgrt_recursion
+*/
 int _sqrt_recursion(int n)
 {
-return (_sqrt_rec(n, 1));
-}
-/**
- * _sqrt_rec - Second entry.
- * @n: int type
- * @x: int type
- * Return: x in square value
- **/
-int _sqrt_rec(int n, int x)
-{
-if (n <= 0)
-{
+int i = 0;
+if (i < 0)
 return (-1);
-}
-if (x * x > n)
+else
 {
-return (-1);
+return (_evaluate(i, n));
 }
-if (n == x * x)
-{
-return (x);
-}
-return (_sqrt_rec(n, x + 1));
 }
