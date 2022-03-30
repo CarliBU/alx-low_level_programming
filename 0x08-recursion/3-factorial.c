@@ -11,6 +11,10 @@ if(n >= 1)
 {
 return n * factorial(n - 1);
 }
+if else(n < 0)
+{
+return -1;
+}
 else
 {
 return 1;
