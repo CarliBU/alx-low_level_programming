@@ -6,9 +6,10 @@
 */
 int _strlen(char *s)
 {
-	unsigned int i;
-	i = 0;
-	
+unsigned int i;
+
+i = 0;
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -23,9 +24,10 @@ int _strlen(char *s)
 */
 char *str_concat(char *s1, char *s2)
 {
-	char *dst;
+char *dst;
+
+unsigned int i, j, size;
 	
-	unsigned int i, j, size;
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
