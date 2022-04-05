@@ -13,4 +13,5 @@ char **strtow(char *str);
 int isSpace(char c);
 int endIndex(char *s, int index);
 int countWords(char *s);
+int startIndex(char *s, int index);
 #endif
